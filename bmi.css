@@ -1,0 +1,58 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+	background-color: black;
+}
+#container{
+    width: 1480px;
+    height: 720px;
+    background-color: rgb(240, 140, 10);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/back.jpg);
+    
+    margin: 0px auto;
+}
+#bmitab{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(175, 73, 150);
+    position: relative;
+    margin: 0px auto;
+    top: 200px;
+    background-image:url(images/back2.jpg)
+}
+#numbers{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+#result{
+    background-color: rgb(41, 71, 71);
+	height: 60px;
+    width: 144px;
+    position: absolute;
+    left: 25;
+    right: 0;
+    bottom: 20px;
+    font-size: 30px;
+    text-align: right;
+    
+}
+#bmi{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left: 40px;
+    right: 0;
+    bottom: 90px;
+}
+#p{
+    text-align: left;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    color: rgb(255, 255, 255);
+    
+}
